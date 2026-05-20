@@ -8,7 +8,7 @@ import SettingsPage from './pages/SettingsPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/off-boarding/">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<DashboardPage />} />
